@@ -1,0 +1,15 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+  "name": "Ezequias Bernardo",
+  "email": "email_zeca@outlook.com"
+}
+
+###
+
+GET http://localhost:3333/invite/eze123
+
+###
+
+GET http://localhost:3333/subscribers/eze123/ranking/clicks
