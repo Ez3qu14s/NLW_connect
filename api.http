@@ -2,14 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Ezequias Bernardo",
-  "email": "email_zeca@outlook.com"
+  "name": "Usuário indicado 3",
+  "email": "indicado3@outlook.com",
+  "referrer": "cceae395-b1f6-4b19-9500-e88e8e405bf3"
 }
 
 ###
 
-GET http://localhost:3333/invite/eze123
+GET http://localhost:3333/invite/fe4569e0-2985-4ff0-923c-8b0e7e258fb4
 
 ###
 
-GET http://localhost:3333/subscribers/eze123/ranking/clicks
+GET http://localhost:3333/subscribers/fe4569e0-2985-4ff0-923c-8b0e7e258fb4/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/fe4569e0-2985-4ff0-923c-8b0e7e258fb4/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/fe4569e0-2985-4ff0-923c-8b0e7e258fb4/ranking/position
+
+###
+
+GET http://localhost:3333/ranking

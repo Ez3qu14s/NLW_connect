@@ -40,6 +40,6 @@ export async function subscribeToEvent({
   const subscriber = result[0]
 
   return {
-    subscribeId: subscriber.id,
+    subscriberId: subscriber.id,
   }
 }
